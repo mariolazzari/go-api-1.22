@@ -1,8 +1,3 @@
-# How to create your Golang APIs from now on with v1.22
-
-## Path value
-
-```go
 package main
 
 import (
@@ -38,4 +33,3 @@ func (a *APIServer) Run() error {
 
 	return server.ListenAndServe()
 }
-```
